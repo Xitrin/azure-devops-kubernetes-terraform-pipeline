@@ -29,7 +29,7 @@ stages:
   jobs:
   - job: QADeployJob
     steps:
-    - bash: echo $(environment)QADeployJob
+    - bash: echo $(environment)DeployJob
 - stage: ProdDeploy
   variables:
     environment: Prod
@@ -39,4 +39,4 @@ stages:
   jobs:
   - job: ProdDeployJob
     steps:
-    - bash: echo $(environment)ProdDeployJob
+    - bash: echo $(environment)DeployJob
