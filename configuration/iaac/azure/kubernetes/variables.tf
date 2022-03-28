@@ -8,6 +8,7 @@ variable environment {
 
 variable location {
     default = "centralus"
+}
 
 variable node_count {
   default = 1
