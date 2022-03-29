@@ -11,10 +11,8 @@ variable location {
 }
 
 variable node_count {
-  default = 1
+  default = 2
 }
-
-
 
 variable dns_prefix {
   default = "k8stest"
